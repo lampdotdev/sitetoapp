@@ -301,7 +301,7 @@ cat > "$APP/Contents/Info.plist" <<PLIST
 <plist version="1.0"><dict>
   <key>CFBundleDevelopmentRegion</key><string>en</string>
   <key>CFBundleExecutable</key><string>SiteToApp</string>
-  <key>CFBundleIdentifier</key><string>dev.lamp.dev.pensive-curie-69cf17.app.sitetoapp</string>
+  <key>CFBundleIdentifier</key><string>dev.lamp.dev.app.sitetoapp</string>
   <key>CFBundleName</key><string>Site-to-App</string>
   <key>CFBundleDisplayName</key><string>Site-to-App</string>
   <key>CFBundlePackageType</key><string>APPL</string>
@@ -325,6 +325,6 @@ cat > "$APP/Contents/Info.plist" <<PLIST
   <key>NSAppleMusicUsageDescription</key><string>Site-to-App plays music from your library.</string>
 </dict></plist>
 PLIST
-intents SiteToApp "$APP" "dev.lamp.dev.pensive-curie-69cf17.app.sitetoapp" Sources
+intents SiteToApp "$APP" "dev.lamp.dev.app.sitetoapp" Sources
 codesign --force -s - "$APP"
 echo "Built $APP"
