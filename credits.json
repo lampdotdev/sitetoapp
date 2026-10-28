@@ -3,7 +3,7 @@
     {
       "name" : "Site-to-App",
       "starter" : "sitetoapp",
-      "url" : "https://github.com/RooCodeInc/lamp-starter-sitetoapp"
+      "url" : "https://github.com/lampdotdev/sitetoapp"
     }
   ],
   "upstream" : [
